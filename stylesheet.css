@@ -1,0 +1,35 @@
+body{
+    margin: 0px;/*erase margins*/
+}
+main{
+    /*adds margins*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navigation_bar ul{
+    list-style-type: none;/*erase the bullets*/
+    background-color: hsl(208, 8%, 33%);/*background color of the navigation bar*/
+    /*remove padding and margin inside navigation bar*/
+    padding: 0px;
+    margin: 0px;
+
+    overflow: hidden;
+}
+.navigation_bar a{/*the texts in navigation bar*/
+    color: white;
+    text-decoration: none;/*remove underline in hyperlink*/
+    padding: 15px;
+    display: block;
+   text-align: center;
+}
+.navigation_bar a:hover{
+    background-color: hsl(0, 1%, 19%);/*to change color when hovered*/
+}
+
+.navigation_bar li{
+    float: left;/*to make everything in navigation bar horizontal*/
+                /*also needs the overflow property to be hidden in the <ul> tag*/
+}
